@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drone']
+
+roboflow:
+  workspace: s-workspace-bompf
+  project: rgb-test__-ojbm5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-bompf/rgb-test__-ojbm5/dataset/1
